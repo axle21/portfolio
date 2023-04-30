@@ -20,7 +20,7 @@ function ContactMeSection() {
                     <AiOutlinePhone
                         size={30}
                     /> 
-                    <p className='pl-4 font-bold text-base'>(+63) 9062-2433-195</p>
+                    <p className='pl-4 font-bold text-base'>(+63) 906-2433-195</p>
                 </div>
                 <div className='flex items-center justify-center w-full'>
                     <AiOutlineMail
