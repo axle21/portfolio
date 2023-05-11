@@ -1,7 +1,6 @@
 import React from "react"
 import {
-  AiOutlineGitlab,
-  AiOutlineTwitter,
+  AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineInstagram,
 } from "react-icons/ai"
@@ -17,7 +16,7 @@ function Footer() {
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://gitlab.com/axle1" rel="noreferrer" target="_blank">
-            <AiOutlineGitlab
+            <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
@@ -33,7 +32,7 @@ function Footer() {
             />
           </a>
           <a
-            href="https://github.com/axle21"
+            href="https://www.instagram.com/im.axle/"
             rel="noreferrer"
             target="_blank"
           >
