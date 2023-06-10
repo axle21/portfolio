@@ -1,22 +1,12 @@
 import React from "react"
 import Image from "next/image"
 
-const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Ant Design" },
-  { skill: "Chakra UI" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-]
+const skills = ["HTML","CSS", "JavaScript/TypeScript","React","Next.js","Git","SQL/NoSQL","Chakra UI","Ant Design","Tailwind CSS","Docker","RESTful API"]
+
 
 const AboutSection = () => {
   return (
-    <section id="about">
+    <section id="about"  className="h-screen">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
@@ -29,10 +19,10 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Axle and I am a{" "}
+              Hi, my name is Axle and I am{" "}
               <span className="font-bold">{"a man of focus"}</span>,
               <span className="font-bold">{" commitment"}</span>, 
-              <span className="font-bold">{" sheer will"}</span> and
+              <span className="font-bold">{" sheer will"}</span> and a
               <span className="font-bold">{" self-motivated "}</span>
               Front End Developer based in Manila, Philippines.
             </p>
@@ -70,7 +60,7 @@ const AboutSection = () => {
                     key={idx}
                     className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
                   >
-                    {item.skill}
+                    {item}
                   </p>
                 )
               })}

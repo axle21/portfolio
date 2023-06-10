@@ -1,11 +1,9 @@
 "use client"
 import  React from 'react'
-import "../styles/globals.css"
-import Navbar from "@/components/Navbar"
-import { ThemeProvider } from "next-themes"
-import Footer from "@/components/Footer"
 import { usePathname } from "next/navigation"
-import SplashScreen from '@/components/SplashScreen'
+import "../styles/globals.css"
+import { ThemeProvider } from "next-themes"
+import { SplashScreen,NavBar,Footer } from '../components'
 
 export default function RootLayout({
   children,
@@ -32,7 +30,7 @@ export default function RootLayout({
           isLoading && isHome ? 
           <SplashScreen finishLoading={() => setIsLoading(false)}/> : 
           <ThemeProvider enableSystem={true} attribute="class">
-          <Navbar />
+          <NavBar />
           {children}
           <Footer/>
         </ThemeProvider>

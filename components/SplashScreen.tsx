@@ -3,7 +3,7 @@ import React from 'react'
 import anime from 'animejs'
 import Image from 'next/image'
 
-interface  ISplashScreen{
+interface ISplashScreen{
     finishLoading: () => void ;
 }
 

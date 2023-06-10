@@ -24,15 +24,22 @@ const projects = [
   {
     name: "Superfund Members Portal",
     description:
-      "An User level web application for members to work and have an overview For the superfund such as signing document, add , edit , upload and generate reports.",
+      "A User level web application for members to work and have an overview For the superfund such as signing document, add , edit , upload and generate reports.",
     image: "/superfund-member-portal.png",
     github: "#",
     link: "https://www.selfmade.com.au/",
   },
+  {
+    name: "Crypto Pairing",
+    description:
+      "Its main functionality is to Retrieve and display market data for a selected currency pair from Binance public API",
+    image: "/crypto-pairing.png",
+    github: "https://github.com/axle21/crypto-pairing",
+    link: "https://crypto-pairing.vercel.app/",
+  },
 ]
 
-
-function ProjectSection() {
+const ProjectSection = () => {
   return (
     <section id="projects">
       <div className="py-2" />
