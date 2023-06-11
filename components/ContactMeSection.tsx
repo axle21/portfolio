@@ -8,7 +8,7 @@ const ContactMeSection = () => {
           <div className="my-12 pb-12 md:pt-16 ">
               <h1 className="my-10 text-center font-bold text-4xl">
                   Contact me 
-                  <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+                  <hr className="w-6 h-1 mx-auto my-4 bg-sky-600 border-0 rounded"></hr>
               </h1>
               <div className="flex flex-col space-y-8">
                   <div className='flex items-center justify-center w-full'>

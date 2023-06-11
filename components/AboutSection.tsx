@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 
-const skills = ["HTML","CSS", "JavaScript/TypeScript","React","Next.js","Git","SQL/NoSQL","Chakra UI","Ant Design","Tailwind CSS","Docker","RESTful API"]
+const skills = ["HTML","CSS", "JavaScript/TypeScript","React","Next.js","Git","Chakra UI","Ant Design","Tailwind CSS","Docker","RESTful API"]
 
 
 const AboutSection = () => {
@@ -10,7 +10,7 @@ const AboutSection = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 bg-sky-600 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
@@ -20,10 +20,10 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Axle and I am{" "}
-              <span className="font-bold">{"a man of focus"}</span>,
-              <span className="font-bold">{" commitment"}</span>, 
-              <span className="font-bold">{" sheer will"}</span> and a
-              <span className="font-bold">{" self-motivated "}</span>
+              <span className="font-bold text-sky-600">{"a man of focus"}</span>,
+              <span className="font-bold text-sky-600">{" commitment"}</span>, 
+              <span className="font-bold text-sky-600">{" sheer will"}</span> and a
+              <span className="font-bold text-sky-600">{" self-motivated "}</span>
               Front End Developer based in Manila, Philippines.
             </p>
             <br />
@@ -42,7 +42,7 @@ const AboutSection = () => {
             <br />
             <p>
               I believe that you should{" "}
-              <span className="font-bold text-teal-500">
+              <span className="font-bold text-sky-600">
                 never stop growing
               </span>{" "}
               and that&#39;s what I strive to do, I have a passion for

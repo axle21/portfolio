@@ -40,6 +40,9 @@ module.exports = {
           to: { transform: "translateY(0)" },
         },
       },
+      colors: {
+        'regal-blue': 'red',
+      },
     },
   },
   plugins: [],

@@ -45,9 +45,9 @@ const Navbar = () => {
               <div className="container flex items-center space-x-2 cursor-pointer">
                 <Image
                         src="/axle-logo.png"
-                        alt=""
-                        width={80}
-                        height={80}
+                        alt="axle logo"
+                        width={60}
+                        height={60}
                       />
               </div>
             </Link>
@@ -74,7 +74,7 @@ const Navbar = () => {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
+                      "block lg:inline-block text-neutral-900  dark:text-neutral-100 cursor-pointer hover:text-sky-600"
                     }
                     activeClass="active"
                     spy={true}
@@ -90,14 +90,14 @@ const Navbar = () => {
             {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
-                  className="bg-slate-100 p-2 rounded-xl"
+                  className="bg-sky-200 p-2 rounded-xl"
                 >
                   <RiSunLine size={25} color="black" />
                 </button>
                 ) : (
                 <button
                   onClick={() => setTheme("dark")}
-                  className="bg-slate-100 p-2 rounded-xl"
+                  className="bg-slate-100 p-2 rounded-xl hover:bg-sky-200"
                 >
                   <RiMoonFill size={25} />
                 </button>

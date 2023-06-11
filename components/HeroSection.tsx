@@ -8,7 +8,7 @@ import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
   return (
-    <section id="home">
+    <section id="home" >
        <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
@@ -16,21 +16,21 @@ const HeroSection = () => {
             alt=""
             width={325}
             height={325}
-            className="rounded-full shadow-2xl"
+            className="rounded-full shadow-2xl "
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Axle!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">
+            <span className="font-semibold text-sky-600">
             Front End Developer{" "}
             </span>
             based in Manila, Philippines. Im Responsible for Bringing websites to life not just with stunning designs together with intuitive user experiences but also highly functional.
           </p>
           <Link
             to="projects"
-            className="cursor-pointer text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="cursor-pointer text-neutral-100 font-semibold px-6 py-3 bg-sky-600 rounded shadow hover:bg-sky-700"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -50,7 +50,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
+          <HiArrowDown size={35} className="animate-bounce cursor-pointer" color="#0284c7"/>
         </Link>
       </div>
     </section>
