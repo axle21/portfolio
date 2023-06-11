@@ -7,13 +7,4 @@ import ProjectSection from "./ProjectSection";
 import SlideUp from "./SlideUp";
 import SplashScreen from "./SplashScreen";
 
-export {
-    AboutSection,
-    ContactMeSection,
-    Footer,
-    HeroSection,
-    NavBar,
-    ProjectSection,
-    SlideUp,
-    SplashScreen
-};
+export { AboutSection, ContactMeSection, Footer, HeroSection, NavBar, ProjectSection, SlideUp, SplashScreen };
