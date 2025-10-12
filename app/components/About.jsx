@@ -35,7 +35,7 @@ const About = ({ isDarkMode }) => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className='w-64 sm:w-80 rounded-3xl max-w-none'>
+          className='w-64 sm:w-80 rounded-3xl max-w-none hover:cursor-pointer'>
           <Image
             src={hovered ? assets.user_image_hover : assets.user_image}
             alt='User Image'
