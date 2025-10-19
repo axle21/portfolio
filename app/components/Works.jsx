@@ -8,17 +8,16 @@ const Works = ({ isDarkMode }) => {
       <h4 className='text-center mb-2 text-lg font-ovo'>My Portfolio</h4>
       <h2 className='text-center text-5xl font-Ovo'>Current Projects</h2>
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I offer a range of front-end web development services to help you create
-        a stunning online presence. Whether you're a small business, startup, or
-        individual, I can provide tailored solutions to meet your specific
-        needs.
+        List of my Current/Recent projects. Want to see more? Email me.
       </p>
       <div className='grid grid-cols-auto my-10 gap-5 dark:text-black'>
         {workData.map((project, index) => (
           <div
             key={index}
             className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
-            style={{ backgroundImage: `url(${project.bgImage})` }}>
+            style={{ backgroundImage: `url(${project.bgImage})` }}
+             onClick={() => window.open(project.link, "_blank")}
+            >
             <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
               <div>
                 <h2 className='font-semibold'>{project.title}</h2>

@@ -39,7 +39,7 @@ const Home = () => {
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header />
       <About isDarkMode={isDarkMode} />
-      <Services isDarkMode={isDarkMode} />
+      {/* <Services isDarkMode={isDarkMode} /> */}
       <Works isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />

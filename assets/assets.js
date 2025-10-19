@@ -86,24 +86,28 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "Designer Portfolio",
+    description: "Portfolio showcasing",
     bgImage: "/work-1.png",
+    link: "https://anna-content-designer.vercel.app/",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "Rydges Hotels",
+    description: "Booking App",
     bgImage: "/work-2.png",
+    link: "https://www.rydges.com/",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "Moonlight Cinema",
+    description: "Booking Cinema",
     bgImage: "/work-3.png",
+    link: "https://melbourne.moonlight.com.au/",
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    title: "Thredbo Resort",
+    description: "Web And mobile App",
+    bgImage: "/work-4.png", 
+    link: "https://www.thredbo.com.au/",
   },
 ];
 
