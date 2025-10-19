@@ -99,13 +99,13 @@ export const workData = [
   },
   {
     title: "Moonlight Cinema",
-    description: "Booking Cinema",
+    description: "Cinema booking site",
     bgImage: "/work-3.png",
     link: "https://melbourne.moonlight.com.au/",
   },
   {
     title: "Thredbo Resort",
-    description: "Web And mobile App",
+    description: "Web and mobile app",
     bgImage: "/work-4.png", 
     link: "https://www.thredbo.com.au/",
   },
@@ -145,19 +145,19 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "HTML, CSS, JavaScript, React, Next.js",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "Bsc. in Information Technology",
+    description: "BSc. in Information Technology",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built 5+ projects",
   },
 ];
 

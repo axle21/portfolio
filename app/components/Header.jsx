@@ -36,7 +36,7 @@ const Header = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.7 }}
         className='max-w-2xl mx-auto font-Ovo'>
-        I create responsive secure and user-friendly websites for small
+        I create responsive, secure, and user-friendly websites for small
         businesses and individuals. Let's work together to bring your vision to
         life!
       </motion.p>
